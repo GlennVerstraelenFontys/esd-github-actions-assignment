@@ -2,8 +2,8 @@ services:
   github-actions-runner:
     image: evl8/esd-github-actions-runner
     environment:
-      - URL=<put the extracted url here>
-      - TOKEN=<put the extracted token here>
+      - URL=https://github.com/GlennVerstraelenFontys/esd-github-actions-assignment
+      - TOKEN=AQ4ZNU53A7MS6JB6THP7663HJWQEC
     networks:
       - esd
   nexus:
